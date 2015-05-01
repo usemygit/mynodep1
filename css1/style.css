@@ -1,0 +1,139 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	border: 0px currentColor;
+	font-family: Tahoma, sens Serif;
+	font-size: 100%;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+:focus {
+	outline: 0px;
+}
+body {
+	font: 12px/18px Tahoma, Verdana, sans-serif;
+	width: 100%;
+	font-size-adjust: none;
+	font-stretch: normal;
+}
+a {
+	outline: 0px;
+	color: transparent;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0px;
+}
+img {
+	border: currentColor;
+}
+input {
+	vertical-align: middle;
+}
+.clearfix::after {
+	height: 0px;
+	line-height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+	content: ".";
+}
+.clearfix {
+	display: block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.wrapper {
+	margin: 0px auto;
+	padding: 0px 0px 100px;
+	width: 1000px;
+	position: relative;
+	zoom: 1;
+}
+.wrapper::after {
+	clear: both;
+	display: block;
+	content: "";
+}
+.left {
+	width: 500px;
+	float: left;
+}
+.right {
+	width: 500px;
+	float: right;
+}
+.content {
+	padding: 17px 0px 0px;
+}
+h1 {
+	text-align: center;
+	color: rgb(122, 122, 122);
+	text-transform: uppercase;
+	line-height: 48px;
+	font-size: 38px;
+	font-weight: normal;
+}
+h2 {
+	line-height: 57px;
+	font-size: 35px;
+	font-weight: bold;
+}
+h2 span {
+	color: rgb(0, 0, 0);
+	line-height: 37px;
+	font-family: trebuchet ms, tahoma;
+	font-size: 27px;
+	font-weight: normal;
+}
+.content p {
+	padding: 8px 0px 5px;
+	color: rgb(0, 0, 0);
+	line-height: 23px;
+	font-size: 17px;
+} 
+.step1 p {
+	color: rgb(137, 137, 137);
+	line-height: 25px;
+	font-size: 1.4em;
+}
+.step1 h2 {
+	padding: 12px 0px;
+}
+.step_button_db_br5 {
+	outline: 0px;
+	border: 0px currentColor;
+	width: 500px;
+	height: 70px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	line-height: 70px;
+	font-family: trebuchet ms, tahoma;
+	font-size: 36px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	background-image: url("cc.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+ 
+.step_button_db_br5:hover {
+	background-image: url("cc.png");
+	background-repeat: no-repeat;
+	background-position: left -70px;
+}
