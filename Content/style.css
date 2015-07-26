@@ -4,7 +4,7 @@ img, input, textarea, hr, button, iframe {border:none}
 textarea {resize: none}
 ul {list-style: none}
 html, body {min-height: 100%}
-body {cursor: default; font-family: arial; font: 400 25px/30px arial; color: #fff; background: url(../Images/553f1d53nc9dd9e7b.jpg) center 0px}
+body {cursor: default; font-family: arial; font: 400 25px/30px arial; color: #fff; background: url(../images/bg1.jpg) center 0px}
 a, a:visited {color: #000; text-decoration: none}
 a:hover, a:active {text-decoration: none}
 body > .outBox {position: absolute; top: 0; left: 0; height: 100%; width: 100%; opacity: 0.3; filter: alpha(opacity = 30); background: #000}
