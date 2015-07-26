@@ -1,0 +1,82 @@
+﻿body, div, img, p, span, ul, li, input, button, h1, h2, h3, h4, h5, h6, a, label, textarea, hr, fieldset, select, option {margin: 0; padding: 0}
+a:active, a:focus, img, input, select, textarea, button {outline: 0}
+img, input, textarea, hr, button, iframe {border:none}
+textarea {resize: none}
+ul {list-style: none}
+html, body {min-height: 100%}
+body {cursor: default; font-family: arial; font: 400 25px/30px arial; color: #fff; background: url(../Images/553f1d53nc9dd9e7b.jpg) center 0px}
+a, a:visited {color: #000; text-decoration: none}
+a:hover, a:active {text-decoration: none}
+body > .outBox {position: absolute; top: 0; left: 0; height: 100%; width: 100%; opacity: 0.3; filter: alpha(opacity = 30); background: #000}
+.Box {position: absolute; width: 718px; height: 544px; left: 50%; top: 50%; margin: -272px 0 0 -359px}
+.Box .outBox, .inBox {height: 530px}
+.Box.block3 {height: 616px}
+.Box.block3 .outBox, .inBox {height: 590px}
+.Box.block4 {height: 346px}
+.Box.block4 .outBox, .inBox {height: 320px}
+.Box.block5 {height: 513px}
+.Box.block5 .outBox, .inBox {height: 487px}
+.Box .outBox {border: 13px solid #e9e101; background: #000; opacity: 0.85; filter: alpha(opacity = 85)}
+.inBox {width: 628px; position: absolute; top: 10px; left: 13px; text-align: center; padding: 0 32px}
+h1 {font: 600 45px/45px arial; margin: 20px 0}
+.text1 {font: 400 25px/30px arial; color: #fff600; border: 1px solid #6c6a28; padding: 14px 0; margin-bottom: 30px}
+.Box .block5 .text1 {margin-bottom: 25px}
+.text {margin-bottom: 30px}
+.line {display: block; height: 1px; background: #505050}
+.line span {display: inline-block; width: 37px; height: 37px; background: #000 url(../Images/arrow.png) no-repeat center; border-radius: 19px; border: 1px solid #525252; vertical-align: top; margin-top: -17px}
+.q {display: block; font: 400 30px/36px arial; margin-bottom: 28px}
+.buttons > * {display: inline-block; line-height: 42px;}
+.btn {width: 132px; font: 600 18px/42px arial; color: #000; border-radius: 3px; text-transform: uppercase}
+.yes {border-top: 1px solid #cee79c; border-left: 1px solid #cee79c; text-shadow: 0 1px 1px #ccf07c;
+background: rgb(186,222,116);
+background: -moz-linear-gradient(top,  rgba(186,222,116,1) 0%, rgba(140,188,51,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(186,222,116,1)), color-stop(100%,rgba(140,188,51,1)));
+background: -webkit-linear-gradient(top,  rgba(186,222,116,1) 0%,rgba(140,188,51,1) 100%);
+background: -o-linear-gradient(top,  rgba(186,222,116,1) 0%,rgba(140,188,51,1) 100%);
+background: -ms-linear-gradient(top,  rgba(186,222,116,1) 0%,rgba(140,188,51,1) 100%);
+background: linear-gradient(to bottom,  rgba(186,222,116,1) 0%,rgba(140,188,51,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bade74', endColorstr='#8cbc33',GradientType=0 );
+}
+.yes:hover {border-color: #b9cf8c;
+background: rgb(164,193,102);
+background: -moz-linear-gradient(top,  rgba(164,193,102,1) 0%, rgba(120,158,44,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,193,102,1)), color-stop(100%,rgba(120,158,44,1)));
+background: -webkit-linear-gradient(top,  rgba(164,193,102,1) 0%,rgba(120,158,44,1) 100%);
+background: -o-linear-gradient(top,  rgba(164,193,102,1) 0%,rgba(120,158,44,1) 100%);
+background: -ms-linear-gradient(top,  rgba(164,193,102,1) 0%,rgba(120,158,44,1) 100%);
+background: linear-gradient(to bottom,  rgba(164,193,102,1) 0%,rgba(120,158,44,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4c166', endColorstr='#789e2c',GradientType=0 );
+}
+.no {border-top: 1px solid #ff8787; border-left: 1px solid #ff8787; text-shadow: 0 1px 1px #ffa2a2;
+background: rgb(255,86,86);
+background: -moz-linear-gradient(top,  rgba(255,86,86,1) 0%, rgba(255,1,1,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,86,86,1)), color-stop(100%,rgba(255,1,1,1)));
+background: -webkit-linear-gradient(top,  rgba(255,86,86,1) 0%,rgba(255,1,1,1) 100%);
+background: -o-linear-gradient(top,  rgba(255,86,86,1) 0%,rgba(255,1,1,1) 100%);
+background: -ms-linear-gradient(top,  rgba(255,86,86,1) 0%,rgba(255,1,1,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,86,86,1) 0%,rgba(255,1,1,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5656', endColorstr='#ff0101',GradientType=0 );
+}
+.no:hover {border-color: #ff6c6c;
+background: rgb(204,69,69);
+background: -moz-linear-gradient(top,  rgba(204,69,69,1) 0%, rgba(204,2,2,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,69,69,1)), color-stop(100%,rgba(204,2,2,1)));
+background: -webkit-linear-gradient(top,  rgba(204,69,69,1) 0%,rgba(204,2,2,1) 100%);
+background: -o-linear-gradient(top,  rgba(204,69,69,1) 0%,rgba(204,2,2,1) 100%);
+background: -ms-linear-gradient(top,  rgba(204,69,69,1) 0%,rgba(204,2,2,1) 100%);
+background: linear-gradient(to bottom,  rgba(204,69,69,1) 0%,rgba(204,2,2,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc4545', endColorstr='#cc0202',GradientType=0 );
+}
+.buttons > span {margin: 0 23px}
+.Box .block2 {margin-top: 45px}
+.Box .block3 {margin-top: 35px; display: none; width: 0; height: 0}
+.Box .block4 {display: none}
+.Box .block4 p {font: 400 30px/36px arial; margin: 80px 0 32px}
+.progressBar {width: 484px; height: 33px; margin: auto}
+.progress {width: 0; height: 25px; background: url(../Images/progress_bar.jpg) 0px; border-radius: 3px}
+.Box .block5 {display: none}
+.Box .block5 h1 {font: 600 50px/70px arial; margin: 35px 0 0}
+.Box .block5 .text {font: 400 30px/36px arial}
+.Box .block5 .text1 {margin-bottom: 35px; font-size: 30px}
+.Box .block5 .line {margin-bottom: 58px}
+.Box .block5 .yes {width: 181px; font: 600 25px/58px arial}
