@@ -1,122 +1,25 @@
-﻿
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="robots" content="noindex, nofollow">
 
-<title>新得了情。。。</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
+ 
 
-<link type="text/css" rel="stylesheet" href="mystyle/style.css" />
+ 
+ 
+<title>请稍候...</title>
 
-<script type="text/javascript" src="Scripts/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="Scripts/script.js"></script>
+<script language="javascript" type="text/javascript"> 
+	function myredirect() {
+		window.location = "http://www.uodo.net/0?u=a63274&u8=a2";
+	}
+</script>
+
+
 </head>
-
+ 
+ 
 <body>
-
-<script>
-//存入session
-function getPar(par){
-    //获取当前URL
-    var local_url = document.location.href; 
-    //获取要取得的get参数位置
-    var get = local_url.indexOf(par +"=");
-    if(get == -1){
-        return false;   
-    }   
-    //截取字符串
-    var get_par = local_url.slice(par.length + get + 1);    
-    //判断截取后的字符串是否还有其他get参数
-    var nextPar = get_par.indexOf("&");
-    if(nextPar != -1){
-        get_par = get_par.slice(0, nextPar);
-    }
-    return get_par;
-}
-function getC(name){
-	var dc = document.cookie;
-	var prefix = name + "=";
-	var begin = dc.indexOf("; " + prefix);
-	if (begin == -1){begin = dc.indexOf(prefix);
-	if (begin != 0) {return null;}}
-	else{begin += 2;}
-	var end = document.cookie.indexOf(";", begin);
-	if (end == -1){end = dc.length;}
-	return unescape(dc.substring(begin + prefix.length, end));
-}
-function setC(name, value, expires, path, domain, secure){
-	document.cookie= name + "=" + escape(value) +((expires) ? "; expires=" + expires.toGMTString() : "") +((path) ? "; path=" + path : "") +((domain) ? "; domain=" + domain : "") +((secure) ? "; secure" : "");
-}
-
-(getPar('pid') == false) ? setC('pid',0,'','/') : setC('pid',getPar('pid'),'','/'); 
-(getPar('sid') == false) ? setC('sid',0,'','/') : setC('sid',getPar('sid'),'','/');
-(getPar('reg') == false || getPar('reg') == "0") ? setC('reg',30,'','/') : setC('reg',getPar('reg'),'','/');
-
-</script>
-  <div class="Box">
-    <div class="outBox"></div>
-    <div class="inBox">
-      <div class="block1">
-	<h1>同城一夜情</h1>
-        <p class="text1">
-          现在本地有超过3800名以上美女在线
-		  <br />我们需要验证你是否满足加入条件
-        </p>
-        <p class="text">
-          你很幸运, 我们为有限制注册，今天男士开放少量注册. 
-          <br />请确认以下问题<br />祝您愉快！
-        </p>
-        <span class="line"><span></span></span>
-      </div>
-      <div class="block2">
-        <span class="q">1. 您超过18岁了吗?</span>
-        <div class="buttons">
-          <a class="btn yes" href="#">是的</a>
-          <span>or</span>
-          <a class="btn no" href="#">没有</a>
-        </div>
-      </div>
-      <div class="block3">
-        <span class="q">2. 假如您遇到你认识的美女，你是否选择保护她们的隐私?</span>
-        <div class="buttons">
-          <a class="btn yes" href="#">会的</a>
-          <span>or</span>
-          <a class="btn no" href="#">不会</a>
-        </div>
-      </div>
-      <div class="block4">
-        <p>请稍等...<br />正在检查您的注册资格...</p>
-        <div class="progressBar"><div class="progress"></div></div>
-      </div>
-      <div class="block5">
-        <h1>好极了！</h1>
-        <p class="text">您现在可以进行注册</p>
-        <p class="text1">
-          点击加入<br />系统将自动匹配部分美女供您选择！
-        </p>
-<span class="line"><span></span></span>
-<script type="text/javascript"> 
-(function(){
-var qs = location['search'].replace(/^\?/, '').split('&'), $_GET = {}, i;
-for (i in qs) {
-qs[i] = qs[i].split('=');
-$_GET[qs[i][0]] = qs[i][1];
-}
-document.write('<div class="buttons"> <a class="btn yes" target="_blank" href="http://www.wymmw.com/1?u=a63274&u8=b">加入</a></div>');
-})();
-</script>
-      </div>
-    </div>
-  </div>
-<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="0" height="0">
-  <param name="loop" value="true">
-  <param name="movie" value="http://vip.hyc.org.cn/music.swf?music=http://rm.sina.com.cn/wm/VZ200705101138395899VK/music/p17_42.mp3">
-  <param name="quality" value="High">
-  <embed src="Flash/music.swf"  pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"  width="0" height="0" quality="High" loop="true"></embed>
-</object>
 
 
 
@@ -126,7 +29,25 @@ document.write('<div class="buttons"> <a class="btn yes" target="_blank" href="h
 </div>
 
 
-<noscript>
-</body>
-</html></noscript>
 
+<a href="http://www.uodo.net/0?u=a63274&u8=a2">如你的浏览器没有自动跳转,请点击这里!</a>
+
+<script language="javascript" type="text/javascript"> 
+	setTimeout("myredirect()",1000);
+</script>
+
+		  
+
+
+<noscript>
+
+</body>
+</html>
+</noscript>
+
+
+
+
+
+
+ 
